@@ -116,7 +116,7 @@ if response.status_code == 200:
   st.download_button(
       label="Download CSV",
       data=convert_for_download(df),
-      now_ist = datetime.now(ZoneInfo('Asia/Kolkata')).strftime("DAjobs_%d%m%Y_%H%M%SIST")
+      now_ist = datetime.now(ZoneInfo('Asia/Kolkata')).strftime("DAjobs_%d%m%Y_%H%M%SIST"),
       file_name=f"{now_ist}.csv",
       mime="text/csv",
       icon=":material/download:",
