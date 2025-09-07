@@ -121,7 +121,7 @@ if response.status_code == 200:
       mime="text/csv",
       icon=":material/download:",
     )
-except:
+else:
   print("Request failed, please try again.")
 
 
