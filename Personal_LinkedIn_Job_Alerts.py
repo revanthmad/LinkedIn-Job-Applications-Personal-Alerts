@@ -1,4 +1,4 @@
-!pip install streamlit pandas requests BeautifulSoup
+pip install streamlit pandas requests BeautifulSoup
 
 import streamlit as st
 import requests
